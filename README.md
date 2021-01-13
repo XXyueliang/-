@@ -1,2 +1,3 @@
 # keyboard16
-自定义十六进制键盘
+相关介绍和演示请看下面的博客：
+https://xingxingyueliang.blog.csdn.net/article/details/112369706
