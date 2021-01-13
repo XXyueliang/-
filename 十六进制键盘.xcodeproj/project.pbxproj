@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C8BC4425AEB1AD005B57DE /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C8BC4325AEB1AD005B57DE /* ContentCell.swift */; };
+		26DCD3B725A859B400FE307F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCD3B625A859B400FE307F /* AppDelegate.swift */; };
+		26DCD3BB25A859B400FE307F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCD3BA25A859B400FE307F /* ViewController.swift */; };
+		26DCD3BE25A859B400FE307F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DCD3BC25A859B400FE307F /* Main.storyboard */; };
+		26DCD3C025A859B500FE307F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DCD3BF25A859B500FE307F /* Assets.xcassets */; };
+		26DCD3C325A859B500FE307F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DCD3C125A859B500FE307F /* LaunchScreen.storyboard */; };
+		26DCD3CD25A85CEA00FE307F /* ButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCD3CC25A85CEA00FE307F /* ButtonVC.swift */; };
+		26DCD3D025A85CFB00FE307F /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCD3CF25A85CFB00FE307F /* CollectionViewVC.swift */; };
+		26DCD3D425A85D3800FE307F /* XYHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCD3D325A85D3800FE307F /* XYHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26C8BC4325AEB1AD005B57DE /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		26DCD3B325A859B400FE307F /* 十六进制键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "十六进制键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DCD3B625A859B400FE307F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26DCD3BA25A859B400FE307F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26DCD3BD25A859B400FE307F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DCD3BF25A859B500FE307F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DCD3C225A859B500FE307F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26DCD3C425A859B500FE307F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DCD3CC25A85CEA00FE307F /* ButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonVC.swift; sourceTree = "<group>"; };
+		26DCD3CF25A85CFB00FE307F /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
+		26DCD3D325A85D3800FE307F /* XYHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DCD3B025A859B400FE307F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DCD3AA25A859B400FE307F = {
+			isa = PBXGroup;
+			children = (
+				26DCD3B525A859B400FE307F /* 十六进制键盘 */,
+				26DCD3B425A859B400FE307F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26DCD3B425A859B400FE307F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DCD3B325A859B400FE307F /* 十六进制键盘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DCD3B525A859B400FE307F /* 十六进制键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				26DCD3B625A859B400FE307F /* AppDelegate.swift */,
+				26DCD3D325A85D3800FE307F /* XYHelper.swift */,
+				26DCD3BA25A859B400FE307F /* ViewController.swift */,
+				26DCD3CF25A85CFB00FE307F /* CollectionViewVC.swift */,
+				26DCD3BC25A859B400FE307F /* Main.storyboard */,
+				26DCD3BF25A859B500FE307F /* Assets.xcassets */,
+				26DCD3CC25A85CEA00FE307F /* ButtonVC.swift */,
+				26C8BC4325AEB1AD005B57DE /* ContentCell.swift */,
+				26DCD3C125A859B500FE307F /* LaunchScreen.storyboard */,
+				26DCD3C425A859B500FE307F /* Info.plist */,
+			);
+			path = "十六进制键盘";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26DCD3B225A859B400FE307F /* 十六进制键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DCD3C725A859B500FE307F /* Build configuration list for PBXNativeTarget "十六进制键盘" */;
+			buildPhases = (
+				26DCD3AF25A859B400FE307F /* Sources */,
+				26DCD3B025A859B400FE307F /* Frameworks */,
+				26DCD3B125A859B400FE307F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "十六进制键盘";
+			productName = "十六进制键盘";
+			productReference = 26DCD3B325A859B400FE307F /* 十六进制键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DCD3AB25A859B400FE307F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					26DCD3B225A859B400FE307F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 26DCD3AE25A859B400FE307F /* Build configuration list for PBXProject "十六进制键盘" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DCD3AA25A859B400FE307F;
+			productRefGroup = 26DCD3B425A859B400FE307F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DCD3B225A859B400FE307F /* 十六进制键盘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DCD3B125A859B400FE307F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DCD3C325A859B500FE307F /* LaunchScreen.storyboard in Resources */,
+				26DCD3C025A859B500FE307F /* Assets.xcassets in Resources */,
+				26DCD3BE25A859B400FE307F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DCD3AF25A859B400FE307F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DCD3CD25A85CEA00FE307F /* ButtonVC.swift in Sources */,
+				26C8BC4425AEB1AD005B57DE /* ContentCell.swift in Sources */,
+				26DCD3D425A85D3800FE307F /* XYHelper.swift in Sources */,
+				26DCD3D025A85CFB00FE307F /* CollectionViewVC.swift in Sources */,
+				26DCD3BB25A859B400FE307F /* ViewController.swift in Sources */,
+				26DCD3B725A859B400FE307F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26DCD3BC25A859B400FE307F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DCD3BD25A859B400FE307F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DCD3C125A859B500FE307F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DCD3C225A859B500FE307F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26DCD3C525A859B500FE307F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26DCD3C625A859B500FE307F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DCD3C825A859B500FE307F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z25X65TZP;
+				INFOPLIST_FILE = "十六进制键盘/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DCD3C925A859B500FE307F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z25X65TZP;
+				INFOPLIST_FILE = "十六进制键盘/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DCD3AE25A859B400FE307F /* Build configuration list for PBXProject "十六进制键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DCD3C525A859B500FE307F /* Debug */,
+				26DCD3C625A859B500FE307F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DCD3C725A859B500FE307F /* Build configuration list for PBXNativeTarget "十六进制键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DCD3C825A859B500FE307F /* Debug */,
+				26DCD3C925A859B500FE307F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DCD3AB25A859B400FE307F /* Project object */;
+}
